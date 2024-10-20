@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Survey Form</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <h1 id="title">Chocolate Experience Survey</h1>
+    <p id="description"><em>Let us know how your experience with us was and how we can improve :)</em></p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Your details:</legend>
+        <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter name here" required/><label>
+        <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter email here" required /><label>
+        <label for="number" id="number-label">Rating out of 10: <input id="number" type="number" pattern="[\d]" min="0" max="10" placeholder="Rating"><label>
+      </fieldset>
+      <fieldset>
+        <legend>Where did you hear about us?</legend>
+        <select id="dropdown">
+          <option default>Online</option>
+          <option>From a friend</option>
+        <select>
+      </fieldset>
+      <fieldset>
+        <legend>Are you likely to visit us again?</legend>
+        <label><input type="radio" name="visit-option" value="visit-option" checked class="inline" /> Yes</label>
+        <label><input type="radio" name="visit-option" value="visit-option" class="inline" /> No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select what your favourite part of your experience here was!</legend>
+        <label><input type="checkbox" value="welcome" class="inline" /> The Welcome Talk</label>
+        <label><input type="checkbox" value="hot-choco" class="inline" /> Hot Choco Time</label>
+        <label><input type="checkbox" value="network" class="inline" /> Networking Event</label>
+        <label><input type="checkbox" value="speakers-panel" class="inline" /> Expert Speakers Panel</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Why was that your favourite part? and would you recommend this experience to others?</legend>
+          <textarea id="description" placeholder="write your thoughts here..." rows="3" cols="6"></textarea>
+        </fieldset>
+      <input type="submit" id="submit" />
+    </form>
+  <body>
+</html>

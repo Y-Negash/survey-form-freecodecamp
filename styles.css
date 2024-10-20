@@ -1,0 +1,74 @@
+#title{
+    text-align: center;
+    font-family: Helvetica;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: 5px double #7D6167;
+    box-shadow: 10px 6px 10px 0 #7D6167;
+  }
+  
+  body{
+    background-color: #e6dbd0;
+    font-family: Helvetica;
+    color: #ECE1D5;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 540;
+    color: #5d4954;
+  }
+  
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+}
+
+#dropdown{ 
+      line-height: 1.5;
+  }
+  
+  label{ 
+    margin-top:10px;
+  }
+  .inline{
+    display: inline;
+    width: unset;
+    margin: 1em 0.5em;
+    vertical-align: middle;
+  }
+  
+  #survey-form{
+    background-color: #5d4954;
+    width: 60%;
+    min-width: 300px;
+    margin: 5em auto;
+    padding: 0.5px; 
+    border-radius: 0.5em;
+    padding-bottom: 1.5em; 
+  }
+  
+  fieldset {
+    border: 1px double white;
+    font-size: 17.5px;
+    margin: 2em 2em;
+  }
+  
+  fieldset:last-of-type {
+    margin-bottom: 2em;
+  }
+  
+  input[type="submit"]{
+    background-color: F5E6E2;
+    color: #4B3D45;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0.5em;
+  }
